@@ -1,7 +1,7 @@
 FROM dockerfile/java:oracle-java8
 MAINTAINER Benjamin Cousin "b.cousin@code-troopers.com"
 
-ENV JETTY_VERSION jetty-distribution-9.2.6.v20141205
+ENV JETTY_VERSION jetty-distribution-9.2.8.v20150217
 ENV JETTY_URL http://download.eclipse.org/jetty/stable-9/dist/$JETTY_VERSION.tar.gz
 
 # Install packages
