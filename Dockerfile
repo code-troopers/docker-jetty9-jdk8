@@ -7,7 +7,7 @@ ENV JETTY_URL http://download.eclipse.org/jetty/stable-9/dist/$JETTY_VERSION.tar
 # Install packages
 RUN apt-get update && \
     apt-get update --fix-missing && \
-    apt-get install -y wget
+    apt-get install -y wget imagemagick
 
 # Download and install jetty
 RUN wget $JETTY_URL && \
